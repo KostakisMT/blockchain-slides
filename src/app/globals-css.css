@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #35F1AB;
+  --background: #13103F;
+}
+
+body {
+  color: var(--primary);
+  background: var(--background);
+}
+
+h1 {
+  @apply font-bold italic;
+}
+
+h2 {
+  @apply font-bold;
+}
